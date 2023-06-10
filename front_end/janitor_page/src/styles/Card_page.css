@@ -1,0 +1,86 @@
+.CardPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @keyframes wipe-in-left {
+    from {
+      clip-path: inset(0 0 0 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+
+  [transition-style="in:wipe:left"] {
+    animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-left both;
+  }
+}
+.page-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-button {
+  /* Transparent background */
+  background-color: transparent;
+  display: fixed;
+  left: 0px;
+
+  /* Size */
+  height: 12px;
+  width: 12px;
+}
+
+.arrow-button--l {
+  /* Edges */
+  border-bottom: 1px solid #d1d5db;
+  border-left: 1px solid #d1d5db;
+  transform: translateX(25%) rotate(45deg);
+}
+
+.header h1 {
+  color: skyblue;
+  position: relative;
+  left: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.button-with-icon {
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-with-icon__label {
+  margin-left: 0.5rem;
+  height: 40px;
+  width: 130px;
+  background-color: rgba(230, 210, 210, 0.105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.7px solid;
+  border-radius: 10px;
+  color: skyblue;
+  font-size: 13px;
+  font-weight: bold;
+  border-color: skyblue;
+}
+
+.test {
+  color: white;
+  background-color: yellowgreen;
+  height: 20px;
+}

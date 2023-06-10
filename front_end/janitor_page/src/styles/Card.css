@@ -1,0 +1,67 @@
+button {
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  align-items: center;
+  /* background-color: red; */
+  background-color: inherit;
+  justify-content: flex-start;
+}
+
+.unfolded_card {
+  width: 80%;
+  height: 80%;
+  background-color: rgb(237, 246, 233);
+}
+.link_route {
+  width: 100%;
+}
+.cleaning_card {
+  /* height: 50%; */
+  font-size: 14px;
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.712);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cleaning_card2 {
+  /* height: 50%; */
+  height: 10vh;
+  width: 100%;
+  font-size: 14px;
+  text-decoration: line-through;
+  background-color: rgba(50, 50, 50, 0.712);
+  color: rgba(255, 255, 255, 0.453);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  height: 12vh;
+  width: 80%;
+  /* background-color: purple; */
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cleaned_button {
+  width: 100%;
+  height: 10vh;
+}

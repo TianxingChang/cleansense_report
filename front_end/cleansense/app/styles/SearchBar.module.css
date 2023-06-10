@@ -1,0 +1,25 @@
+/* .searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input[type='text'] { 
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+button[type='submit'] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+}
+   */

@@ -1,0 +1,29 @@
+.card_zone {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.card_container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url(../assets/Chivo_Mono/ChivoMono-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+.title {
+  color: white;
+  width: 75%;
+}

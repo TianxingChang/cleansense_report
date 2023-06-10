@@ -1,0 +1,22 @@
+.info-bar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  min-height: 50px;
+}
+
+.time-info {
+  width: 40%;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.id-info {
+  width: 60%;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,164 @@
+.collapsible {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  /* box-shadow: 0px 5px 10px 0px rgba(234, 221, 228, 0.583); */
+  border-radius: 10px;
+}
+
+.content {
+  background-color: #ece6e6;
+  height: 18vh;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.left-content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0 0 0 10px;
+}
+
+.right-content {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 0;
+  width: 35%;
+}
+
+.cub-num {
+  width: 100%;
+  text-align: center;
+  /* background-color: blueviolet; */
+}
+
+.people-num {
+  width: 100%;
+  /* background-color: blueviolet; */
+  text-align: center;
+}
+
+.report-num {
+  width: 100%;
+  text-align: center;
+  /* background-color: blueviolet; */
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  align-items: center;
+  background-color: transparent;
+  border: rgb(238, 231, 231);
+}
+
+.id_card {
+  width: 60%;
+  border-radius: 10px;
+  background-color: rgb(241, 231, 231);
+  height: 100%;
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.time_card {
+  width: 40%;
+  height: 100%;
+  border: rgb(211, 205, 205);
+  /* background-color: white; */
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url(../assets/Chivo_Mono/ChivoMono-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+.guide {
+  border-radius: 10px;
+  max-width: 65%;
+  max-height: 70%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.583);
+}
+
+.link-guide {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* background-color: rgba(0, 255, 255, 0.248); */
+
+  border-radius: 0 0 10px 0;
+}
+
+.cub-num {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.people-num {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.report-num {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.cub {
+  border-radius: 3px;
+  width: 30%;
+  color: rgb(82, 53, 215);
+  text-align: end;
+}
+
+.people {
+  border-radius: 5px;
+  width: 30%;
+  color: rgb(82, 53, 215);
+  text-align: end;
+}
+
+.hygiene {
+  border-radius: 5px;
+  color: rgb(82, 53, 215);
+  width: 30%;
+  text-align: end;
+}
+
+.info {
+  width: 80%;
+}

@@ -1,0 +1,53 @@
+.App {
+  background-color: black;
+  /* background: linear-gradient(
+    328deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 118, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  min-height: 100vh;
+  align-items: center;
+  min-width: 50vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url(../assets/Chivo_Mono/ChivoMono-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  height: 6em;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* border-top: 1px solid #565454; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  height: 100px;
+}
+footer img {
+  margin-left: 0.5rem;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: grey;
+}
